@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="This is the solution for the QR code component challenge on Frontend Mentor">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+      --color-white: hsl(0, 0%, 100%);
+      --color-light-gray: hsl(212, 45%, 89%);
+      --color-blue: hsl(220, 15% 55%);
+      --color-dark-blue: hsl(218, 44%, 22%);
+    }
+
+*,
+*::before
+*::after {
+  box-sizing : border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  background-color: var(--color-light-gray);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 19px;
+    color: hsl(218, 44%, 22%);
+    margin: 1em;
+    padding: 22px 10px;
+    font-weight: 700;
+  }
+
+  p {
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 15px;
+    font-weight: 400;
+    }
+
+  .container {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color: var(--color-white);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1em;
+  }
+
+  
+
+
+
+  </style>
+</head>
+<body>
+  <div>
+    <div class="container">
+      <div class="card">
+    <img src="images/image-qr-code.png" alt="QR code for fr frontend mentor" width="200" height="200">
+  <h1>Improve your front-end skills by building projects</h1>
+
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jamesbond</a>
+  </div>
+</body>
+</html>
